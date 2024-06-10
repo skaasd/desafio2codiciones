@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Verificar Suma de Stickers</title>
+    <link rel="stylesheet" href="../Desafio_2/assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <p class="instruction">Puedes llevar hasta 10 stickers en total</p>
+        <div class="sticker-container">
+            <div class="sticker">
+                <img src="../Desafio_2/assets/images/7.png" alt="Sticker 1" class="sticker-image">
+                <input type="number" id="uno" class="sticker-input" min="0" max="10">
+            </div>
+            <div class="sticker">
+                <img src="../Desafio_2/assets/images/8.png" alt="Sticker 2" class="sticker-image">
+                <input type="number" id="dos" class="sticker-input" min="0" max="10">
+            </div>
+            <div class="sticker">
+                <img src="../Desafio_2/assets/images/9.png" alt="Sticker 3" class="sticker-image">
+                <input type="number" id="tres" class="sticker-input" min="0" max="10">
+            </div>
+        </div>
+        <div class="action-container">
+            <p class="resultado"></p>
+            <button id="verify">Verificar</button>
+            <a href="../Desafio_2/index.html">
+                <button class="btn">Volver al menu principal</button>
+        </div>
+    </div>
+
+    <script src="ejercicio2.js"></script>
+</body>
+</html>
